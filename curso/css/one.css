@@ -1,0 +1,18 @@
+@charset: "UTF-8";
+body{
+  margin: 0px;
+  background-image: linear-gradient(to right, red, yellow);
+}
+.white_txt{
+  color: white;
+}
+header{
+  text-align: center;
+}
+main{
+  margin-right: 8px;
+  margin-left: 8px;
+}
+main > p {
+  text-align: justify;
+}

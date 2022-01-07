@@ -1,0 +1,22 @@
+{
+  "name": "only a test",
+  "short_name": "teste",
+  "theme_color": "black",
+  "background_color": "#929292",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+	"gcm_sender_id": "103953800507",
+	"icons": [
+		{
+			"src": "Share3.png",
+			"type": "image/png",
+			"sizes": "192x128"
+		},
+		{
+		  "src": "Share.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	 ]
+}
