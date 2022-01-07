@@ -16,3 +16,7 @@ main{
 main > p {
   text-align: justify;
 }
+#prompt_div{
+  background-color: white;
+  text-align: center;
+}
