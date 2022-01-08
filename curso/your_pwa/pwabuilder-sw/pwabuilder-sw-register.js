@@ -12,28 +12,3 @@ import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
 
 const el = document.createElement('pwa-update');
 document.body.appendChild(el);
-
-//local part
-let myPrompt;
-const pwaAlert = document.querySelector('#prompt_div');
-const btnPWA = document.querySelector('#install_pwa_button');
-
-window.addEventListener('beforeinstallprompt', (e) => {
-  e.preventDefault();
-  myPrompt = e;
-  pwaAlert.style.display="block";
-});
-
-btnPWA.addEventListener('click', () => {
-  pwaAlert.style.display="none";
-  myPrompt.prompt();
-  console.log('pronto para instalar ' + e);
-  myPrompt.userChoice
-  .then( (choiceResult) => {
-    if(choiceResult === 'accepted'){
-      console.log('instalacao aceita');
-    }else{
-      console.log('instalacao negada/falhou');
-    }
-  });
-});

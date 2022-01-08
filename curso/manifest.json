@@ -5,7 +5,7 @@
   "display": "standalone",
   "name": "wesleydmoraesdsantos.github",
   "orientation": "portrait",
-  "scope": "/v2",
+  "scope": "/",
   "short_name": "teste",
   "start_url": ".",
   "theme_color": "#ffffff",

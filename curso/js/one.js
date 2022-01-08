@@ -1,6 +1,6 @@
 if('serviceWorker' in navigator){
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js', { scope: '/tst/2/' })
+    navigator.serviceWorker.register('/pwabuilder-sw.js', { scope: '/tst/2/' })
     .then((reg) => {
       console.log('serviceWorker registrado // ', reg);
     }).catch((e) => {
