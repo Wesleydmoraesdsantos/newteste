@@ -14,7 +14,7 @@ const el = document.createElement('pwa-update');
 document.body.appendChild(el);
 
 //local part
-et myPrompt;
+let myPrompt;
 const pwaAlert = document.querySelector('#prompt_div');
 const btnPWA = document.querySelector('#install_pwa_button');
 
