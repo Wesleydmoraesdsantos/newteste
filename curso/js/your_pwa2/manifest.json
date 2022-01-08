@@ -1,0 +1,18 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "wesleydmoraesdsantos.github",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "wesleydmoraesdsantos.github",
+  "start_url": "/",
+  "theme_color": "rgb(233,33,0)",
+  "icons": [
+    {
+      "src": "images/128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    }
+  ]
+}
