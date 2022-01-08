@@ -13,14 +13,14 @@
   "screenshots": [],
   "icons": [
     {
-      "src": "./img/Share2.png",
+      "src": "./512x512.png",
       "type": "image/png",
-      "sizes": "128x128"
+      "sizes": "512x512"
     },
     {
-      "src": "./img/Share3.png",
+      "src": "./192x192.png",
       "type": "image/png",
-      "sizes": "128x128"
+      "sizes": "192x192"
     }
   ],
   "shortcuts": []
