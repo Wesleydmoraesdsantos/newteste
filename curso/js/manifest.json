@@ -1,18 +1,22 @@
 {
   "background_color": "#ffffff",
+  "description": "teste de pwa",
   "dir": "ltr",
   "display": "standalone",
   "name": "wesleydmoraesdsantos.github",
-  "orientation": "any",
+  "orientation": "portrait",
   "scope": "/",
-  "short_name": "wesleydmoraesdsantos.github",
+  "short_name": "wesley",
   "start_url": "/",
   "theme_color": "rgb(233,33,0)",
+  "categories": [],
+  "screenshots": [],
   "icons": [
     {
-      "src": "images/128x128.png",
+      "src": "./img/Share-icon.png",
       "type": "image/png",
       "sizes": "128x128"
     }
-  ]
+  ],
+  "shortcuts": []
 }

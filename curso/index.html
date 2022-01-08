@@ -5,16 +5,14 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="theme-color" content="rgb(233,33,0)">
     <title>curso de pwa</title>
-    <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="shortcut icon" href="./img/Share-icon.png" type="image/x-icon">
 <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="./css/one.css">
-    <script type="text/javascript">
-  if (window.location.protocol != "https:") {
-      window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
-  }
-  </script>
+    <script type="module">
+   import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+   const el = document.createElement('pwa-update');
+   document.body.appendChild(el);
+</script>
   </head>
   <body>
     <header class="white_txt">
@@ -26,6 +24,6 @@
     <main class="white_txt">
       <p>neste curso irei aprender mais detalhadamente a criar um PWA(progressive web application), este é apenas um aquivo html pra aplicar as técnicas</p>
     </main>
-    <script src="/js/one.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/your_pwa/pwabuilder-sw/pwabuilder-sw-register.js" type="module"></script>
   </body>
 </html>
