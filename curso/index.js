@@ -1,6 +1,6 @@
 if('serviceWorker' in navigator){
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/pwabuilder-sw.js')
+    navigator.serviceWorker.register('./pwabuilder-sw.js')
     .then((reg) => {
       console.log('serviceWorker registrado // ', reg);
     }).catch((e) => {
@@ -10,7 +10,7 @@ if('serviceWorker' in navigator){
 }
 let myPrompt;
 //const pwaAlert = document.querySelector('#prompt_div');
-const btnPWA = document.querySelector('#install_pwa_button');
+const btnPWA = document.querySelector('#ins');
 
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
