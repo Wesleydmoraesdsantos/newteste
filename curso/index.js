@@ -15,6 +15,7 @@ const btnPWA = document.querySelector('#ins');
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
   myPrompt = e;
+  console.log("before install ok");
 });
 
 btnPWA.addEventListener('click', () => {
