@@ -1,11 +1,11 @@
-/*const cacheName = 'v2';
+const cacheName = 'v2';
 const resourcesToPrecache = [
   '/',
   './index.html',
   './manifest.json',
   './192x192.png',
   './512x512.png',
-  './css/one.css'
+  './index.css'
 ];
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -19,22 +19,23 @@ self.addEventListener('fetch', (event) => {
     caches.match(event.request)
   .then(cacheResponse => (cacheResponse || fetch(event.request))),
   )
-});*/
+});
+/*
 // This is the "Offline page" service worker
-
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
-
-const CACHE = "pwabuilder-page";
+const CACHE = "v11";
 
 // TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
 const offlineFallbackPage = [
-  '/',
-  './index.html',
-  './manifest.json',
-  './192x192.png',
-  './512x512.png',
-  './css/one.css'
+  "/",
+  "./index.html",
+  "./manifest.json",
+  "./192x192.png",
+  "./512x512.png",
+  "./index.css"
 ];
+
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
+
 
 self.addEventListener("message", (event) => {
   if (event.data && event.data.type === "SKIP_WAITING") {
@@ -103,4 +104,4 @@ workbox.routing.registerRoute(
   new workbox.strategies.CacheFirst({
     cacheName: CACHE
   })
-);
+);*/

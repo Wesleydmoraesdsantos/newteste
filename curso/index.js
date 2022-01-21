@@ -14,6 +14,7 @@ const btnPWA = document.querySelector('#ins');
 
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
+  console.log(e.platforms);
   myPrompt = e;
   pwaAlert.style.display="block";
 });
