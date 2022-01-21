@@ -1,4 +1,4 @@
-@charset: "UTF-8";
+@charset "UTF-8";
 body{
   margin: 0px;
   background-image: linear-gradient(to right, red, yellow);
@@ -19,4 +19,7 @@ main > p {
 #install_pwa_button{
   background-color: white;
   text-align: center;
+}
+#prompt_div{
+  display: none;
 }

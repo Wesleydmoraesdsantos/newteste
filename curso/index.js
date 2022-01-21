@@ -8,18 +8,18 @@ if('serviceWorker' in navigator){
     })
   })
 }
-let myPrompt;
-//const pwaAlert = document.querySelector('#prompt_div');
+var myPrompt;
+const pwaAlert = document.querySelector('#prompt_div');
 const btnPWA = document.querySelector('#ins');
 
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
   myPrompt = e;
-  console.log("before install ok");
+  pwaAlert.style.display="block";
 });
 
-//btnPWA.addEventListener('click', () => {
-  function zzz () {
+btnPWA.addEventListener('click', () => {
+  pwaAlert.style.display="none";
   myPrompt.prompt();
   console.log('pronto para instalar ' + e);
   myPrompt.userChoice
@@ -29,5 +29,5 @@ window.addEventListener('beforeinstallprompt', (e) => {
     }else{
       console.log('instalacao negada/falhou');
     }
-  });
-};
+  })
+});
