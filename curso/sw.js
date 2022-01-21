@@ -1,5 +1,5 @@
 const cacheName = 'v2';
-const resourcesToPrecache = ['/','./index.html','./manifest.json','./192x192.png','./512x512.png','./index.js'];
+const resourcesToPrecache = ['/','./index.html','./manifest.json','./192x192.png','./512x512.png','./css/one.css'];
 
 /*self.addEventListener('install', (event) => {
   event.waitUntil(

@@ -18,7 +18,8 @@ window.addEventListener('beforeinstallprompt', (e) => {
   console.log("before install ok");
 });
 
-btnPWA.addEventListener('click', () => {
+//btnPWA.addEventListener('click', () => {
+  function zzz () {
   myPrompt.prompt();
   console.log('pronto para instalar ' + e);
   myPrompt.userChoice
@@ -29,4 +30,4 @@ btnPWA.addEventListener('click', () => {
       console.log('instalacao negada/falhou');
     }
   });
-});
+};
